@@ -1,0 +1,2 @@
+# springcloud
+最新版本2.2.3的springcloud全家桶。包含gateway、eureka、hystrix、feign、ribbon、config。eureka和mvc还有service都是多节点集群部署，用ribbon实现了负载均衡，hystrix实现了熔断保护。实现了gateway和hystrix的整合，feign和hystrix的整合，开箱即用，还有使用和测试文档
