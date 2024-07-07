@@ -1,4 +1,7 @@
 # springcloud
+
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 最新版本2.2.3的springcloud全家桶。包含gateway、eureka、hystrix、feign、ribbon、config。eureka和mvc还有service都是多节点集群部署，用ribbon实现了负载均衡，hystrix实现了熔断保护。实现了gateway和hystrix的整合，feign和hystrix的整合，开箱即用，提供了示例节点，还有使用和测试文档。
 
 ## 测试方式
@@ -58,3 +61,5 @@ Spring Cloud Config 有它的一套访问规则，我们通过这套规则在浏
 {profile} 就是配置文件的版本，我们的项目有开发版本、测试环境版本、生产环境版本，对应到配置文件上来就是以 application-{profile}.yml 加以区分，例如application-dev.yml、application-sit.yml、application-prod.yml。
 
 {label} 表示 git 分支，默认是 master 分支，如果项目是以分支做区分也是可以的，那就可以通过不同的 label 来控制访问不同的配置文件了。
+
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
